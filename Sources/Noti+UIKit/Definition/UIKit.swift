@@ -4,7 +4,9 @@
 //
 //  Created by Wang Wei on 2018/5/11.
 //
+
 import UIKit
+import Noti
 
 //sourcery: name = "UIAccessibility.announcementDidFinishNotification"
 public struct UIAccessibilityAnnouncementDidFinishNotification: AutoPassiveTypedNotification {
