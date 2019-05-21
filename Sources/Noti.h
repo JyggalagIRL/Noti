@@ -5,7 +5,7 @@
 //  Copyright © 2016 OneV's Den. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Noti.
 FOUNDATION_EXPORT double NotiVersionNumber;

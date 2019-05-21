@@ -23,8 +23,4 @@ public struct DataTransformer {
     public static func to(from number: NSNumber) -> Double {
         return number.doubleValue
     }
-    
-    public static func to(from value: NSValue) -> CGRect {
-        return value.cgRectValue
-    }
 }
