@@ -24,6 +24,83 @@
 			remoteGlobalIDString = 28F828CB1C4B714D00330CF4;
 			remoteInfo = Example;
 		};
+		37D2FB492293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1909D7920A82E1400440171;
+			remoteInfo = NotiAVFoundation;
+		};
+		37D2FB4B2293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1909D9120A875A200440171;
+			remoteInfo = NotiCloudKit;
+		};
+		37D2FB4D2293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1909DAA20A878BF00440171;
+			remoteInfo = NotiContacts;
+		};
+		37D2FB4F2293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1909DC420A87DFB00440171;
+			remoteInfo = NotiEventKit;
+		};
+		37D2FB512293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1909DDC20A884FD00440171;
+			remoteInfo = NotiHomeKit;
+		};
+		37D2FB532293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1909DF420A8862D00440171;
+			remoteInfo = NotiHealthKit;
+		};
+		37D2FB552293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1A5817320A9B34300F78C64;
+			remoteInfo = NotiCoreData;
+		};
+		37D2FB572293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B7DE42220AA88F50093CD67;
+			remoteInfo = NotiAccounts;
+		};
+		37D2FB592293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B7DE43C20AA8A860093CD67;
+			remoteInfo = NotiGameController;
+		};
+		37D2FB5B2293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B7DE45420AA8D200093CD67;
+			remoteInfo = NotiNetworkExtension;
+		};
+		37D2FB5D2293DEE1006484B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B25848220B2756F001AB7D9;
+			remoteInfo = NotiPDFKit;
+		};
 		4BFAFCBF20A533A000855D80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
@@ -139,6 +216,17 @@
 			children = (
 				8F9CAB221D89C756006E1824 /* Noti.framework */,
 				8F9CAB241D89C756006E1824 /* NotiTests.xctest */,
+				37D2FB4A2293DEE1006484B8 /* NotiAVFoundation.framework */,
+				37D2FB4C2293DEE1006484B8 /* NotiCloudKit.framework */,
+				37D2FB4E2293DEE1006484B8 /* NotiContacts.framework */,
+				37D2FB502293DEE1006484B8 /* NotiEventKit.framework */,
+				37D2FB522293DEE1006484B8 /* NotiHomeKit.framework */,
+				37D2FB542293DEE1006484B8 /* NotiHealthKit.framework */,
+				37D2FB562293DEE1006484B8 /* NotiCoreData.framework */,
+				37D2FB582293DEE1006484B8 /* NotiAccounts.framework */,
+				37D2FB5A2293DEE1006484B8 /* NotiGameController.framework */,
+				37D2FB5C2293DEE1006484B8 /* NotiNetworkExtension.framework */,
+				37D2FB5E2293DEE1006484B8 /* NotiPDFKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,7 +278,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					28F828CB1C4B714D00330CF4 = {
 						CreatedOnToolsVersion = 7.2;
@@ -208,7 +296,7 @@
 			};
 			buildConfigurationList = 28F828C71C4B714D00330CF4 /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -232,6 +320,83 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		37D2FB4A2293DEE1006484B8 /* NotiAVFoundation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiAVFoundation.framework;
+			remoteRef = 37D2FB492293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB4C2293DEE1006484B8 /* NotiCloudKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiCloudKit.framework;
+			remoteRef = 37D2FB4B2293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB4E2293DEE1006484B8 /* NotiContacts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiContacts.framework;
+			remoteRef = 37D2FB4D2293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB502293DEE1006484B8 /* NotiEventKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiEventKit.framework;
+			remoteRef = 37D2FB4F2293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB522293DEE1006484B8 /* NotiHomeKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiHomeKit.framework;
+			remoteRef = 37D2FB512293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB542293DEE1006484B8 /* NotiHealthKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiHealthKit.framework;
+			remoteRef = 37D2FB532293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB562293DEE1006484B8 /* NotiCoreData.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiCoreData.framework;
+			remoteRef = 37D2FB552293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB582293DEE1006484B8 /* NotiAccounts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiAccounts.framework;
+			remoteRef = 37D2FB572293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB5A2293DEE1006484B8 /* NotiGameController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiGameController.framework;
+			remoteRef = 37D2FB592293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB5C2293DEE1006484B8 /* NotiNetworkExtension.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiNetworkExtension.framework;
+			remoteRef = 37D2FB5B2293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37D2FB5E2293DEE1006484B8 /* NotiPDFKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiPDFKit.framework;
+			remoteRef = 37D2FB5D2293DEE1006484B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		8F9CAB221D89C756006E1824 /* Noti.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -327,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -381,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
