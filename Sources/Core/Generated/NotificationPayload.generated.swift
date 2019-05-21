@@ -2,6 +2,7 @@
 // DO NOT EDIT
 
 
+import Foundation
 
 extension NSExtensionHostNotificationPayload: PassiveNotificationPayload {
     public init(_ notification: Notification) {

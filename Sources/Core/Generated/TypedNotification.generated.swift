@@ -2,6 +2,7 @@
 // DO NOT EDIT
 
 
+import Foundation
 
 extension NSBundleResourceRequestLowDiskSpaceNotification: EmptyPayloadPassiveTypedNotification {
     public static let name: Notification.Name = .NSBundleResourceRequestLowDiskSpace
