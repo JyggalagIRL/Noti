@@ -14,6 +14,7 @@
 		37C7381B2293E96600392668 /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7381A2293E96600392668 /* UIKit.swift */; };
 		37C738272293F6E900392668 /* NotificationPayload.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C738242293F65100392668 /* NotificationPayload.generated.swift */; };
 		37C738282293F6E900392668 /* TypedNotification.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C738232293F65100392668 /* TypedNotification.generated.swift */; };
+		37C7382B2293FE9400392668 /* DataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7382A2293FE9400392668 /* DataTransformer.swift */; };
 		4B0F4F8B20A57B2F00C59EBC /* DataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F4F8A20A57B2F00C59EBC /* DataTransformer.swift */; };
 		4B0F4F8D20A57C6F00C59EBC /* DataTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F4F8C20A57C6F00C59EBC /* DataTransformerTests.swift */; };
 		4B0F4F9820A5938300C59EBC /* NotificationPayload.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F4F9720A5938300C59EBC /* NotificationPayload.generated.swift */; };
@@ -176,6 +177,7 @@
 		37C738212293F64100392668 /* TypedNotification.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypedNotification.generated.swift; sourceTree = "<group>"; };
 		37C738232293F65100392668 /* TypedNotification.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypedNotification.generated.swift; sourceTree = "<group>"; };
 		37C738242293F65100392668 /* NotificationPayload.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPayload.generated.swift; sourceTree = "<group>"; };
+		37C7382A2293FE9400392668 /* DataTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransformer.swift; sourceTree = "<group>"; };
 		4B0F4F8A20A57B2F00C59EBC /* DataTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransformer.swift; sourceTree = "<group>"; };
 		4B0F4F8C20A57C6F00C59EBC /* DataTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransformerTests.swift; sourceTree = "<group>"; };
 		4B0F4F9720A5938300C59EBC /* NotificationPayload.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPayload.generated.swift; sourceTree = "<group>"; };
@@ -422,6 +424,7 @@
 			children = (
 				37C738192293E92600392668 /* Definition */,
 				37C7381F2293ED8400392668 /* Generated */,
+				37C7382A2293FE9400392668 /* DataTransformer.swift */,
 				37C7380C2293E45D00392668 /* NotiUIKit.h */,
 				37C7380D2293E45D00392668 /* Info.plist */,
 			);
@@ -1607,6 +1610,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C738272293F6E900392668 /* NotificationPayload.generated.swift in Sources */,
+				37C7382B2293FE9400392668 /* DataTransformer.swift in Sources */,
 				37C738282293F6E900392668 /* TypedNotification.generated.swift in Sources */,
 				37C7381B2293E96600392668 /* UIKit.swift in Sources */,
 			);
