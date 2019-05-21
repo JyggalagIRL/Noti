@@ -1,4 +1,4 @@
-// Generated using Sourcery 0.11.2 — https://github.com/krzysztofzablocki/Sourcery
+// Generated using Sourcery 0.16.0 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 
 
@@ -140,40 +140,40 @@ extension NSWillBecomeMultiThreadedNotification: EmptyPayloadPassiveTypedNotific
 }
 
 extension UIAccessibilityAnnouncementDidFinishNotification: PassiveTypedNotification {
-    public static let name: Notification.Name = .UIAccessibilityAnnouncementDidFinish
+    public static let name: Notification.Name = UIAccessibility.announcementDidFinishNotification
 }
 
 extension UIAccessibilityElementFocusedNotification: PassiveTypedNotification {
-    public static let name: Notification.Name = .UIAccessibilityElementFocused
+    public static let name: Notification.Name = UIAccessibility.elementFocusedNotification
 }
 
 extension UIKeyboardDidChangeFrameNotification: PassiveTypedNotification {
     public typealias Payload = UIKeyboardNotificationPayload
-    public static let name: Notification.Name = .UIKeyboardDidChangeFrame
+    public static let name: Notification.Name = UIResponder.keyboardDidChangeFrameNotification
 }
 
 extension UIKeyboardDidHideNotification: PassiveTypedNotification {
     public typealias Payload = UIKeyboardNotificationPayload
-    public static let name: Notification.Name = .UIKeyboardDidHide
+    public static let name: Notification.Name = UIResponder.keyboardDidHideNotification
 }
 
 extension UIKeyboardDidShowNotification: PassiveTypedNotification {
     public typealias Payload = UIKeyboardNotificationPayload
-    public static let name: Notification.Name = .UIKeyboardDidShow
+    public static let name: Notification.Name = UIResponder.keyboardDidShowNotification
 }
 
 extension UIKeyboardWillChangeFrameNotification: PassiveTypedNotification {
     public typealias Payload = UIKeyboardNotificationPayload
-    public static let name: Notification.Name = .UIKeyboardWillChangeFrame
+    public static let name: Notification.Name = UIResponder.keyboardWillChangeFrameNotification
 }
 
 extension UIKeyboardWillHideNotification: PassiveTypedNotification {
     public typealias Payload = UIKeyboardNotificationPayload
-    public static let name: Notification.Name = .UIKeyboardWillHide
+    public static let name: Notification.Name = UIResponder.keyboardWillHideNotification
 }
 
 extension UIKeyboardWillShowNotification: PassiveTypedNotification {
     public typealias Payload = UIKeyboardNotificationPayload
-    public static let name: Notification.Name = .UIKeyboardWillShow
+    public static let name: Notification.Name = UIResponder.keyboardWillShowNotification
 }
 

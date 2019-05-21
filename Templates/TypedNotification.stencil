@@ -13,6 +13,7 @@ extension {{notification.name}}: PassiveTypedNotification {
 extension {{notification.name}}: EmptyPayloadPassiveTypedNotification {
 {% endif %}
     {%if notification.annotations.name %}
+    public static let name: Notification.Name = {{notification.annotations.name}}
     {% else %}
     public static let name: Notification.Name = .{{notification.name | replace:"Notification",""}}
     {% endif %}

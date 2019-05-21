@@ -9,11 +9,11 @@ import Foundation
 
 public struct DataTransformer {
     #if canImport(UIKit)
-    public static func to(from number: NSNumber) -> UIViewAnimationCurve {
-        return UIViewAnimationCurve(rawValue: number.intValue) ?? .easeIn
+    public static func to(from number: NSNumber) -> UIView.AnimationCurve {
+        return UIView.AnimationCurve(rawValue: number.intValue) ?? .easeIn
     }
     
-    public static func to(from curve: UIViewAnimationCurve) -> NSNumber {
+    public static func to(from curve: UIView.AnimationCurve) -> NSNumber {
         return NSNumber(value: curve.rawValue)
     }
     #endif
