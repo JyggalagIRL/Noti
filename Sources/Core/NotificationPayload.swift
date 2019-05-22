@@ -37,7 +37,7 @@ extension NotificationPayload where Self: Decodable {
 }
 
 extension NotificationPayload where Self: Encodable {
-    var userInfo: [AnyHashable: Any] {
+    public var userInfo: [AnyHashable: Any] {
         let data = try! payloadEncoder.encode(self)
         return try! JSONSerialization.jsonObject(with: data, options: []) as! [AnyHashable: Any]
     }
