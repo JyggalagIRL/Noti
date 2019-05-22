@@ -24,6 +24,13 @@
 			remoteGlobalIDString = 28F828CB1C4B714D00330CF4;
 			remoteInfo = Example;
 		};
+		3779FE492294FEA9009E0C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37C7380A2293E45D00392668;
+			remoteInfo = NotiUIKit;
+		};
 		37D2FB492293DEE1006484B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 287D0A741C4B7B26004566D6 /* Noti.xcodeproj */;
@@ -216,6 +223,7 @@
 			children = (
 				8F9CAB221D89C756006E1824 /* Noti.framework */,
 				8F9CAB241D89C756006E1824 /* NotiTests.xctest */,
+				3779FE4A2294FEA9009E0C55 /* NotiUIKit.framework */,
 				37D2FB4A2293DEE1006484B8 /* NotiAVFoundation.framework */,
 				37D2FB4C2293DEE1006484B8 /* NotiCloudKit.framework */,
 				37D2FB4E2293DEE1006484B8 /* NotiContacts.framework */,
@@ -320,6 +328,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		3779FE4A2294FEA9009E0C55 /* NotiUIKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NotiUIKit.framework;
+			remoteRef = 3779FE492294FEA9009E0C55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		37D2FB4A2293DEE1006484B8 /* NotiAVFoundation.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -605,7 +620,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -622,7 +637,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -638,7 +653,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = Example;
 				USES_XCTRUNNER = YES;
 			};
@@ -655,7 +670,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.ExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = Example;
 				USES_XCTRUNNER = YES;
 			};

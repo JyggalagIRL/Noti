@@ -14,7 +14,7 @@ public struct AVAudioSessionInterruptionNotification: AutoPassiveTypedNotificati
     public struct Payload: PassiveNotificationPayload {
         public enum InterruptionType {
             case began(wasSuspended: Bool)
-            case ended(options: AVAudioSessionInterruptionOptions)
+            case ended(options: AVAudioSession.InterruptionOptions)
         }
         
         public let type: InterruptionType
@@ -22,7 +22,7 @@ public struct AVAudioSessionInterruptionNotification: AutoPassiveTypedNotificati
         public init(_ notification: Notification) {
             let userInfo = notification.userInfo!
             let type = (userInfo[AVAudioSessionInterruptionTypeKey] as! NSNumber).uintValue
-            switch AVAudioSessionInterruptionType(rawValue: type)! {
+            switch AVAudioSession.InterruptionType(rawValue: type)! {
             case .began:
                 let wasSuspended: Bool
                 if #available(iOS 10.3, *) {
@@ -33,7 +33,9 @@ public struct AVAudioSessionInterruptionNotification: AutoPassiveTypedNotificati
                 self.type = .began(wasSuspended: wasSuspended)
             case .ended:
                 let optionsFlag = (userInfo[AVAudioSessionInterruptionOptionKey] as! NSNumber).uintValue
-                self.type = .ended(options: AVAudioSessionInterruptionOptions(rawValue: optionsFlag))
+                self.type = .ended(options: AVAudioSession.InterruptionOptions(rawValue: optionsFlag))
+            @unknown default:
+                fatalError()
             }
         }
     }
@@ -47,14 +49,14 @@ public struct AVAudioSessionRouteChangeNotification: AutoPassiveTypedNotificatio
     public struct Payload: AutoPassiveNotificationPayload {
         //sourcery: key = "AVAudioSessionRouteChangeReasonKey"
         //sourcery: type = "NSNumber"
-        public let changeReason: AVAudioSessionRouteChangeReason
+        public let changeReason: AVAudioSession.RouteChangeReason
         //sourcery: key = "AVAudioSessionRouteChangePreviousRouteKey"
         public let routeDescription: AVAudioSessionRouteDescription
     }
 }
 extension DataTransformer {
-    static func to(from value: NSNumber) -> AVAudioSessionRouteChangeReason {
-        return AVAudioSessionRouteChangeReason(rawValue: value.uintValue) ?? .unknown
+    static func to(from value: NSNumber) -> AVAudioSession.RouteChangeReason {
+        return AVAudioSession.RouteChangeReason(rawValue: value.uintValue) ?? .unknown
     }
 }
 
@@ -62,12 +64,12 @@ public struct AVAudioSessionSilenceSecondaryAudioHintNotification: AutoPassiveTy
     public struct Payload: AutoPassiveNotificationPayload {
         //sourcery: key = "AVAudioSessionSilenceSecondaryAudioHintTypeKey"
         //sourcery: type = "NSNumber"
-        public let type: AVAudioSessionSilenceSecondaryAudioHintType
+        public let type: AVAudioSession.SilenceSecondaryAudioHintType
     }
 }
 extension DataTransformer {
-    static func to(from value: NSNumber) -> AVAudioSessionSilenceSecondaryAudioHintType {
-        return AVAudioSessionSilenceSecondaryAudioHintType(rawValue: value.uintValue)!
+    static func to(from value: NSNumber) -> AVAudioSession.SilenceSecondaryAudioHintType {
+        return AVAudioSession.SilenceSecondaryAudioHintType(rawValue: value.uintValue)!
     }
 }
 

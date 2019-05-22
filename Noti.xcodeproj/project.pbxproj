@@ -9,7 +9,18 @@
 /* Begin PBXBuildFile section */
 		287D0A6E1C4B73BD004566D6 /* NotiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D0A6D1C4B73BD004566D6 /* NotiTests.swift */; };
 		28F828811C494B2C00330CF4 /* Noti.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F828801C494B2C00330CF4 /* Noti.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28F828881C494B2C00330CF4 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE2F2294EF59009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE312294F881009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE322294F8C0009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE332294FD4C009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE342294FD5C009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE352294FD66009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE362294FD71009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE372294FD7C009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE382294FD85009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE392294FD8F009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE3A2294FD99009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
+		3779FE3B2294FDA4009E0C55 /* Noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* Noti.framework */; };
 		37C7380E2293E45D00392668 /* NotiUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C7380C2293E45D00392668 /* NotiUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37C7381B2293E96600392668 /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7381A2293E96600392668 /* UIKit.swift */; };
 		37C738272293F6E900392668 /* NotificationPayload.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C738242293F65100392668 /* NotificationPayload.generated.swift */; };
@@ -71,90 +82,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		28F828891C494B2C00330CF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		37C7381C2293EA8500392668 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		4B25848F20B2761B001AB7D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		4B7DE42A20AA89030093CD67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		4B7DE44D20AA8C8C0093CD67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		4B7DE45C20AA8D270093CD67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		D1909D8320A82F0C00440171 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		D1909DB320A87B3900440171 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		D1909DB520A87B4D00440171 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		D1909DCC20A87F6300440171 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		D1909DE420A8855E00440171 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		D1909DFC20A886E600440171 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28F8287C1C494B2C00330CF4;
-			remoteInfo = Noti;
-		};
-		D1A5817B20A9B36D00F78C64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 28F828741C494B2C00330CF4 /* Project object */;
 			proxyType = 1;
@@ -266,7 +193,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F828881C494B2C00330CF4 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE2F2294EF59009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE3B2294FDA4009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE382294FD85009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +224,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE392294FD8F009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE3A2294FD99009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +240,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE312294F881009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +248,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE322294F8C0009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE332294FD4C009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +264,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE342294FD5C009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +272,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE352294FD66009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +280,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE362294FD71009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +288,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779FE372294FD7C009E0C55 /* Noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +301,7 @@
 				28F828971C494B4200330CF4 /* Sources */,
 				28F8288B1C494B2C00330CF4 /* Tests */,
 				28F8287E1C494B2C00330CF4 /* Products */,
+				3779FE2E2294EF59009E0C55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -417,6 +356,13 @@
 				28F828821C494B2C00330CF4 /* Info.plist */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		3779FE2E2294EF59009E0C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		37C7380B2293E45D00392668 /* Noti+UIKit */ = {
@@ -947,7 +893,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				37C7381D2293EA8500392668 /* PBXTargetDependency */,
 			);
 			name = NotiUIKit;
 			productName = NotiUIKit;
@@ -967,7 +912,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4B25849020B2761B001AB7D9 /* PBXTargetDependency */,
 			);
 			name = NotiPDFKit;
 			productName = NotiPDFKit;
@@ -987,7 +931,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4B7DE42B20AA89030093CD67 /* PBXTargetDependency */,
 			);
 			name = NotiAccounts;
 			productName = NotiAccounts;
@@ -1007,7 +950,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4B7DE44E20AA8C8C0093CD67 /* PBXTargetDependency */,
 			);
 			name = NotiGameController;
 			productName = NotiGameController;
@@ -1027,7 +969,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4B7DE45D20AA8D270093CD67 /* PBXTargetDependency */,
 			);
 			name = NotiNetworkExtension;
 			productName = NotiNetworkExtension;
@@ -1047,7 +988,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D1909D8420A82F0C00440171 /* PBXTargetDependency */,
 			);
 			name = NotiAVFoundation;
 			productName = NotiAVFoundation;
@@ -1067,7 +1007,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D1909DB420A87B3900440171 /* PBXTargetDependency */,
 			);
 			name = NotiCloudKit;
 			productName = NotiCloudKit;
@@ -1087,7 +1026,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D1909DB620A87B4D00440171 /* PBXTargetDependency */,
 			);
 			name = NotiContacts;
 			productName = NotiContacts;
@@ -1107,7 +1045,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D1909DCD20A87F6300440171 /* PBXTargetDependency */,
 			);
 			name = NotiEventKit;
 			productName = NotiEventKit;
@@ -1127,7 +1064,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D1909DE520A8855E00440171 /* PBXTargetDependency */,
 			);
 			name = NotiHomeKit;
 			productName = NotiHomeKit;
@@ -1147,7 +1083,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D1909DFD20A886E600440171 /* PBXTargetDependency */,
 			);
 			name = NotiHealthKit;
 			productName = NotiHealthKit;
@@ -1167,7 +1102,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D1A5817C20A9B36D00F78C64 /* PBXTargetDependency */,
 			);
 			name = NotiCoreData;
 			productName = NotiCoreData;
@@ -1733,66 +1667,6 @@
 			target = 28F8287C1C494B2C00330CF4 /* Noti */;
 			targetProxy = 28F828891C494B2C00330CF4 /* PBXContainerItemProxy */;
 		};
-		37C7381D2293EA8500392668 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = 37C7381C2293EA8500392668 /* PBXContainerItemProxy */;
-		};
-		4B25849020B2761B001AB7D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = 4B25848F20B2761B001AB7D9 /* PBXContainerItemProxy */;
-		};
-		4B7DE42B20AA89030093CD67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = 4B7DE42A20AA89030093CD67 /* PBXContainerItemProxy */;
-		};
-		4B7DE44E20AA8C8C0093CD67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = 4B7DE44D20AA8C8C0093CD67 /* PBXContainerItemProxy */;
-		};
-		4B7DE45D20AA8D270093CD67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = 4B7DE45C20AA8D270093CD67 /* PBXContainerItemProxy */;
-		};
-		D1909D8420A82F0C00440171 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = D1909D8320A82F0C00440171 /* PBXContainerItemProxy */;
-		};
-		D1909DB420A87B3900440171 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = D1909DB320A87B3900440171 /* PBXContainerItemProxy */;
-		};
-		D1909DB620A87B4D00440171 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = D1909DB520A87B4D00440171 /* PBXContainerItemProxy */;
-		};
-		D1909DCD20A87F6300440171 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = D1909DCC20A87F6300440171 /* PBXContainerItemProxy */;
-		};
-		D1909DE520A8855E00440171 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = D1909DE420A8855E00440171 /* PBXContainerItemProxy */;
-		};
-		D1909DFD20A886E600440171 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = D1909DFC20A886E600440171 /* PBXContainerItemProxy */;
-		};
-		D1A5817C20A9B36D00F78C64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28F8287C1C494B2C00330CF4 /* Noti */;
-			targetProxy = D1A5817B20A9B36D00F78C64 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -2059,7 +1933,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2089,7 +1963,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiPDFKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2120,7 +1994,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2149,7 +2023,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiAccounts;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2180,7 +2054,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2209,7 +2083,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiGameController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2240,7 +2114,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2269,7 +2143,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiNetworkExtension;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2298,7 +2172,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2326,7 +2200,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiAVFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2356,7 +2230,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2385,7 +2259,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiCloudKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2416,7 +2290,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2445,7 +2319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiContacts;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2474,7 +2348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2502,7 +2376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiEventKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2531,7 +2405,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2559,7 +2433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiHomeKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2588,7 +2462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2616,7 +2490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiHealthKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2647,7 +2521,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2676,7 +2550,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onevcat.NotiCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
