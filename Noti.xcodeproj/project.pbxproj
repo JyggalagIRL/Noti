@@ -47,7 +47,7 @@
 		4B7DE46620AA8DF60093CD67 /* TypedNotification.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DE46420AA8DF60093CD67 /* TypedNotification.generated.swift */; };
 		4BFAFCC720A535A200855D80 /* NotificationPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAFCC620A535A200855D80 /* NotificationPayload.swift */; };
 		4BFAFCC920A540BB00855D80 /* TypedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAFCC820A540BB00855D80 /* TypedNotification.swift */; };
-		4BFAFCCB20A541C800855D80 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAFCCA20A541C800855D80 /* NotificationToken.swift */; };
+		4BFAFCCB20A541C800855D80 /* NotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAFCCA20A541C800855D80 /* NotificationObserver.swift */; };
 		4BFAFCCD20A5421E00855D80 /* NotificationCenter+Noti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAFCCC20A5421E00855D80 /* NotificationCenter+Noti.swift */; };
 		D1909D7D20A82E1400440171 /* NotiAVFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D1909D7B20A82E1400440171 /* NotiAVFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1909D8A20A841AC00440171 /* NotificationPayload.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1909D8820A841AC00440171 /* NotificationPayload.generated.swift */; };
@@ -134,7 +134,7 @@
 		4B7DE46420AA8DF60093CD67 /* TypedNotification.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypedNotification.generated.swift; sourceTree = "<group>"; };
 		4BFAFCC620A535A200855D80 /* NotificationPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPayload.swift; sourceTree = "<group>"; };
 		4BFAFCC820A540BB00855D80 /* TypedNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedNotification.swift; sourceTree = "<group>"; };
-		4BFAFCCA20A541C800855D80 /* NotificationToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
+		4BFAFCCA20A541C800855D80 /* NotificationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObserver.swift; sourceTree = "<group>"; };
 		4BFAFCCC20A5421E00855D80 /* NotificationCenter+Noti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Noti.swift"; sourceTree = "<group>"; };
 		D1909D4F20A7F85E00440171 /* AVFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVFoundation.swift; sourceTree = "<group>"; };
 		D1909D7920A82E1400440171 /* NotiAVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NotiAVFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -522,7 +522,7 @@
 				4B0F4F9520A58FC300C59EBC /* Generated */,
 				4BFAFCC620A535A200855D80 /* NotificationPayload.swift */,
 				4BFAFCC820A540BB00855D80 /* TypedNotification.swift */,
-				4BFAFCCA20A541C800855D80 /* NotificationToken.swift */,
+				4BFAFCCA20A541C800855D80 /* NotificationObserver.swift */,
 				4BFAFCCC20A5421E00855D80 /* NotificationCenter+Noti.swift */,
 				4B0F4F8A20A57B2F00C59EBC /* DataTransformer.swift */,
 			);
@@ -1524,7 +1524,7 @@
 				4BFAFCC920A540BB00855D80 /* TypedNotification.swift in Sources */,
 				D1FDD60F20A6C3BD00FEACB6 /* TypedNotification.generated.swift in Sources */,
 				4B0F4F9820A5938300C59EBC /* NotificationPayload.generated.swift in Sources */,
-				4BFAFCCB20A541C800855D80 /* NotificationToken.swift in Sources */,
+				4BFAFCCB20A541C800855D80 /* NotificationObserver.swift in Sources */,
 				4B0F4F8B20A57B2F00C59EBC /* DataTransformer.swift in Sources */,
 				4BFAFCC720A535A200855D80 /* NotificationPayload.swift in Sources */,
 			);

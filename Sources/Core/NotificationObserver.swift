@@ -1,5 +1,5 @@
 //
-//  NotificationToken.swift
+//  NotificationObserver.swift
 //  Noti
 //
 //  Created by Wang Wei on 2018/5/11.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class NotificationToken {
+public class NotificationObserver {
     let token: NSObjectProtocol
     let center: NotificationCenter
     
